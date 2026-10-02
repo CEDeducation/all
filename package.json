@@ -1,0 +1,25 @@
+{
+  "name": "openlab",
+  "version": "1.8.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node scripts/copy-rdkit-assets.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@rdkit/rdkit": "2026.3.6",
+    "3dmol": "2.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.17",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.2"
+  }
+}
